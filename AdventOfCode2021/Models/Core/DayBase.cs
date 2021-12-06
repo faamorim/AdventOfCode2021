@@ -19,5 +19,10 @@ namespace AdventOfCode2021.Models
         {
 
         }
+
+        public void SetupFromDefault()
+        {
+            LoadData(InputLoader.ReadDefaultInput(DayPuzzle));
+        }
     }
 }

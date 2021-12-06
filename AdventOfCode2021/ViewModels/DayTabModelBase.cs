@@ -8,7 +8,9 @@ namespace AdventOfCode2021.ViewModels
 {
     internal abstract class DayTabModelBase : TabModelBase
     {
-        public abstract long Part1 { get; }
-        public abstract long Part2 { get; }
+        public virtual long Part1 => Puzzle.Part1();
+        public virtual long Part2 => Puzzle.Part2();
+
+        protected abstract Models.DayBase Puzzle { get; }
     }
 }

@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\DefaultInput\Day01Input.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\DefaultInput\Day01Input.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Resources\ExampleInput\" />
 	<Folder Include="ViewModels\" />
     <Folder Include="ViewModels\Days\" />

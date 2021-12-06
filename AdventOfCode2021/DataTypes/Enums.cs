@@ -8,6 +8,6 @@ namespace AdventOfCode2021
 {
     public enum DayPuzzle
     {
-
+        Day01
     }
 }

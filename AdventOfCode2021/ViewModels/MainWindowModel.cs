@@ -13,8 +13,8 @@ namespace AdventOfCode2021.ViewModels
         public MainWindowModel()
         {
             Tabs = new ObservableCollection<TabModelBase>();
-            var home = new HomeTabModel();
-            Tabs.Add(home);
+            Tabs.Add(new HomeTabModel());
+            Tabs.Add(new Days.Day01TabModel());
         }
     }
 }

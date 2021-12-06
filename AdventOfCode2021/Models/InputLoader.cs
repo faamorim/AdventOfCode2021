@@ -15,12 +15,14 @@ namespace AdventOfCode2021.Models
             var str = day.ToString();
             switch (day)
             {
+                case DayPuzzle.Day01:
+                    return DefaultInput(str + "Input.txt");
                 default:
                     throw new ArgumentException("Invalid argument DayInput.");
             }
         }
         static string DefaultInput(string fileName) => $"AdventOfCode2021.Resources.DefaultInput.{fileName}";
-        static List<string>? ReadResource(string resourceName)
+        static List<string> ReadResource(string resourceName)
         {
             var assembly = Assembly.GetExecutingAssembly();
 
@@ -30,7 +32,7 @@ namespace AdventOfCode2021.Models
             return result?.Split(new string[] { Environment.NewLine }, StringSplitOptions.None)?.ToList();
         }
 
-        public static List<string>? ReadDefaultInput(DayPuzzle day) => ReadResource(DefaultInput(day));
+        public static List<string> ReadDefaultInput(DayPuzzle day) => ReadResource(DefaultInput(day));
 
     }
 }
