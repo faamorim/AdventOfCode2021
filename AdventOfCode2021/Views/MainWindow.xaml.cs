@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace AdventOfCode2021
+namespace AdventOfCode2021.View
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

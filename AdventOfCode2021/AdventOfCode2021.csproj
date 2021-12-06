@@ -7,4 +7,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Resources\ExampleInput\" />
+	<Folder Include="ViewModels\" />
+    <Folder Include="ViewModels\Days\" />
+	<Folder Include="Views\" />
+	<Folder Include="Views\Days\" />
+  </ItemGroup>
+
 </Project>

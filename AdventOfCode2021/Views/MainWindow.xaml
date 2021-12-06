@@ -1,0 +1,41 @@
+﻿<Window x:Class="AdventOfCode2021.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AdventOfCode2021.View"
+        xmlns:vm="clr-namespace:AdventOfCode2021.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1600" WindowState="Maximized">
+    <Window.DataContext>
+        <vm:MainWindowModel/>
+    </Window.DataContext>
+    <DockPanel>
+        <TabControl x:Name="tabControl" ItemsSource="{Binding Tabs}">
+            <TabControl.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Header}"/>
+                </DataTemplate>
+            </TabControl.ItemTemplate>
+            <TabControl.ContentTemplate>
+                <DataTemplate>
+                    <ContentControl Content="{Binding}">
+                        <ContentControl.Resources>
+                            <DataTemplate DataType="{x:Type vm:HomeTabModel}">
+                                <TextBlock Text="Home"/>
+                            </DataTemplate>
+                            <DataTemplate DataType="{x:Type vm:DayTabModelBase}">
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Part1}"/>
+                                    <TextBlock Text="{Binding Part2}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ContentControl.Resources>
+                    </ContentControl>
+                </DataTemplate>
+            </TabControl.ContentTemplate>
+
+        </TabControl>
+
+    </DockPanel>
+</Window>
