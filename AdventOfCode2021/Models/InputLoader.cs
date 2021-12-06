@@ -16,6 +16,7 @@ namespace AdventOfCode2021.Models
             switch (day)
             {
                 case DayPuzzle.Day01:
+                case DayPuzzle.Day02:
                     return DefaultInput(str + "Input.txt");
                 default:
                     throw new ArgumentException("Invalid argument DayInput.");

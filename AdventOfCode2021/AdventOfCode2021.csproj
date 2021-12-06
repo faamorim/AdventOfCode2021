@@ -9,16 +9,16 @@
 
   <ItemGroup>
     <None Remove="Resources\DefaultInput\Day01Input.txt" />
+    <None Remove="Resources\DefaultInput\Day02Input.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\DefaultInput\Day01Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day02Input.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Resources\ExampleInput\" />
-	<Folder Include="ViewModels\" />
-    <Folder Include="ViewModels\Days\" />
 	<Folder Include="Views\" />
 	<Folder Include="Views\Days\" />
   </ItemGroup>

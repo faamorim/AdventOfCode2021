@@ -11,7 +11,7 @@ namespace AdventOfCode2021.ViewModels.Days
         public override string Header => "Day 01";
 
         protected override Models.DayBase Puzzle => Day01Puzzle;
-        Models.Day01 Day01Puzzle = new Models.Day01();
+        Models.Days.Day01 Day01Puzzle = new Models.Days.Day01();
 
         public Day01TabModel()
         {

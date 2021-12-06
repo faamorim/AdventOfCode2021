@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdventOfCode2021.Models
+namespace AdventOfCode2021.Models.Days
 {
     internal class Day01 : DayBase
     {
