@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdventOfCode2021.Model
+namespace AdventOfCode2021.Models
 {
     internal abstract class DayBase
     {

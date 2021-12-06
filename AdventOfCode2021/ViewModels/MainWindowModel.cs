@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdventOfCode2021.ViewModel
+namespace AdventOfCode2021.ViewModels
 {
     internal class MainWindowModel : ViewModelBase
     {

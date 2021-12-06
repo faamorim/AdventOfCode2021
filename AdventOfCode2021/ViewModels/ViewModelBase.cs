@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdventOfCode2021.ViewModel
+namespace AdventOfCode2021.ViewModels
 {
     internal abstract class ViewModelBase : INotifyPropertyChanged
     {
