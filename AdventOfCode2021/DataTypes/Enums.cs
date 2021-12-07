@@ -9,6 +9,7 @@ namespace AdventOfCode2021
     public enum DayPuzzle
     {
         Day01,
-        Day02
+        Day02,
+        Day03,
     }
 }
