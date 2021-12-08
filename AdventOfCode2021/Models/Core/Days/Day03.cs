@@ -8,8 +8,8 @@ namespace AdventOfCode2021.Models.Days
 {
     internal class Day03 : DayBase
     {
-        public List<int> Report { get; private set; }
         public override DayPuzzle DayPuzzle => DayPuzzle.Day03;
+        public List<int> Report { get; private set; }
 
         public override long Part1()
         {

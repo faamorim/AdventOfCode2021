@@ -11,12 +11,14 @@
     <None Remove="Resources\DefaultInput\Day01Input.txt" />
     <None Remove="Resources\DefaultInput\Day02Input.txt" />
     <None Remove="Resources\DefaultInput\Day03Input.txt" />
+    <None Remove="Resources\DefaultInput\Day04Input.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\DefaultInput\Day01Input.txt" />
     <EmbeddedResource Include="Resources\DefaultInput\Day02Input.txt" />
     <EmbeddedResource Include="Resources\DefaultInput\Day03Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day04Input.txt" />
   </ItemGroup>
 
   <ItemGroup>
