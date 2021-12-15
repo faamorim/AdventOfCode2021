@@ -16,6 +16,23 @@
     <None Remove="Resources\DefaultInput\Day06Input.txt" />
     <None Remove="Resources\DefaultInput\Day07Input.txt" />
     <None Remove="Resources\DefaultInput\Day08Input.txt" />
+    <None Remove="Resources\DefaultInput\Day09Input.txt" />
+    <None Remove="Resources\DefaultInput\Day10Input.txt" />
+    <None Remove="Resources\DefaultInput\Day11Input.txt" />
+    <None Remove="Resources\DefaultInput\Day12Input.txt" />
+    <None Remove="Resources\DefaultInput\Day13Input.txt" />
+    <None Remove="Resources\DefaultInput\Day14Input.txt" />
+    <None Remove="Resources\DefaultInput\Day15Input.txt" />
+    <None Remove="Resources\DefaultInput\Day16Input.txt" />
+    <None Remove="Resources\DefaultInput\Day17Input.txt" />
+    <None Remove="Resources\DefaultInput\Day18Input.txt" />
+    <None Remove="Resources\DefaultInput\Day19Input.txt" />
+    <None Remove="Resources\DefaultInput\Day20Input.txt" />
+    <None Remove="Resources\DefaultInput\Day21Input.txt" />
+    <None Remove="Resources\DefaultInput\Day22Input.txt" />
+    <None Remove="Resources\DefaultInput\Day23Input.txt" />
+    <None Remove="Resources\DefaultInput\Day24Input.txt" />
+    <None Remove="Resources\DefaultInput\Day25Input.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +44,23 @@
     <EmbeddedResource Include="Resources\DefaultInput\Day06Input.txt" />
     <EmbeddedResource Include="Resources\DefaultInput\Day07Input.txt" />
     <EmbeddedResource Include="Resources\DefaultInput\Day08Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day09Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day10Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day11Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day12Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day13Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day14Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day15Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day16Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day17Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day18Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day19Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day20Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day21Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day22Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day23Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day24Input.txt" />
+    <EmbeddedResource Include="Resources\DefaultInput\Day25Input.txt" />
   </ItemGroup>
 
   <ItemGroup>
