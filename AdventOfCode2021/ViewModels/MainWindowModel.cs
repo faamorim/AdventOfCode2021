@@ -14,7 +14,7 @@ namespace AdventOfCode2021.ViewModels
         {
             Tabs = new ObservableCollection<TabModelBase>();
             Tabs.Add(new HomeTabModel());
-            Tabs.Add(new Days.Day13TabModel());
+            Tabs.Add(new Days.Day14TabModel());
         }
     }
 }
